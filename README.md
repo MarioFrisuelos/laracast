@@ -6,7 +6,7 @@
 Speed/stop the containers
 ```
 docker-compose up -d
-		&
+&
 docker-compose down
 ```
 
@@ -49,7 +49,7 @@ docker-compose exec app php /var/www/artisan chown -R www-data:www-data /var/www
 
 ```
 docker-compose exec app php /var/www/artisan tinker
-		OR
+OR
 php artisan tinker
 ```
 
