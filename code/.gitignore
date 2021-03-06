@@ -1,7 +1,13 @@
-# Vendor
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
 /vendor
-
-# PHPUnit config files 
-phpunit.xml
+.env
+.env.backup
 .phpunit.result.cache
-.phpunit.xml
+docker-compose.override.yml
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
